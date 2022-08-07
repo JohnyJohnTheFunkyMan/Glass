@@ -11,8 +11,13 @@ body {
 
 body {
     background: linear-gradient(to right, #2193b0, #6dd5ed);
+    display: grid;
+    place-items: center;
 }
 
 main {
-    display: grid;
+    border-radius: 20px;
+    background-color: white;
+    width: 75rem;
+    height: 40rem;
 }
